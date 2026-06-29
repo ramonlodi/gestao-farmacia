@@ -211,6 +211,17 @@
         footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
         footer a:hover { color: white; }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0RJW7RTQX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G0RJW7RTQX');
+    </script>
+    
 </head>
 <body>
     <nav class="navbar navbar-ultramed">

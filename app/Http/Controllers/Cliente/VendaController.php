@@ -141,8 +141,8 @@ class VendaController extends Controller
                 'quantidade' => $item['quantidade'],
             ], $carrinho));
 
-            $respostaCacalog = Http::timeout(10)->post(rtrim(env('CACALOG_URL'), '/') . '/api/entregas', [
-                'token' => env('CACALOG_TOKEN'),
+            $respostaCacalog = Http::timeout(10)->post(rtrim(config('CACALOG_URL'), '/') . '/api/entregas', [
+                'token' => config('CACALOG_TOKEN'),
                 'codigo_pedido' => (string) $venda->id,
                 'cep' => $endereco->cep,
                 'logradouro' => $endereco->logradouro,
