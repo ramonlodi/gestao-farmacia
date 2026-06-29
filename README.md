@@ -1,8 +1,8 @@
 
-# UltraMed Farma — Sistema de Gestão Farmacêutica
+# UltraMed Farma
 
 > Programação Web  
-> Prof. Cristiano Garcia | IFSC — Caçador/SC  
+> Prof. Cristiano Garcia | IFSC - Caçador/SC  
 > Aluno: Ramon Lodi de Sousa
 
 ---
